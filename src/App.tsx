@@ -1,7 +1,16 @@
+import styled from 'styled-components'
+import { Header } from './components/Header';
+import { GlobalStyle } from './styles/global'
+
+const Title = styled.h1`
+
+`
+
 export function App() {
   return (
-    <div className="App">
-      <h1> aqui de boas nois </h1>
-    </div>
+    <>
+      <Header />
+      <GlobalStyle />
+    </>
   );
 }
