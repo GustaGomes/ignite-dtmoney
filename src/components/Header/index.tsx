@@ -1,10 +1,9 @@
-import { useState } from 'react';
-import Modal from 'react-modal';
 import logoImg from '../../assets/logo.svg';
 import { Container, Content } from './styles';
 
 interface HeaderProps {
     onOpenNewTransactionModal: () => void;
+    // uma função com o retorno vazio  
 }
 
 export function Header( {onOpenNewTransactionModal}: HeaderProps ){
