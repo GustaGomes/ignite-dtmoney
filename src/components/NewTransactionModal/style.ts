@@ -86,7 +86,7 @@ export const RadioBox = styled.button<RadioBoxProps>`
     img{
         width:20px;
         height: 20px;
-    }
+    } 
 
     span {
         display: inline-block;
